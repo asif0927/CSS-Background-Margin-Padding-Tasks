@@ -1,0 +1,61 @@
+.margin-section{
+  margin: 20px auto;
+  height: 550px;
+  width: 700px;
+  border: 20px solid rgb(254,165,0);
+  border-width: 50px 60px;
+  padding-right: 40px;
+}
+.margin-section::after{
+    content: "margin";
+    position: absolute;
+    top: 17px;
+    left: 340px;
+}
+.border-section{
+    height:517px;
+    width: 670px;
+    border:15px solid rgb(255,255,1);
+    border-width: 30px 40px;
+    padding-right: 20px;
+}
+.border-section::after{
+    content: "border";
+    position: absolute;
+    top: 67px;
+    left: 400px;
+}
+.padding-section{
+    height:477px;
+    width: 640px;
+    border-left-width: 30px;
+    border-right-width: 30px;
+    border:20px solid rgb(173,255,49);
+    border-width: 30px;
+}
+.padding-section::after{
+    content: "padding";
+    position: absolute;
+    top: 96px;
+    left: 440px;
+}
+.content-section{
+    background: rgb(173,217,230);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.content-section::after{
+    content: "content";
+    position: absolute;
+}
+.image-section{
+    position: absolute;
+    top:60px;
+    width: 100%;
+    height: 300px;
+    background-image: url("task1image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
